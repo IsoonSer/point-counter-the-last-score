@@ -5,7 +5,7 @@ import SetSection from './SetSection'
 
 const ScoreBoard = () => {
     return (
-        <div className='w-full h-screen bg-sky-50'>
+        <div className='w-full'>
             <div className='max-w-5xl mx-auto flex flex-col gap-8'>
                 <div className='flex flex-row justify-center mt-4'>
                     <Timer />
