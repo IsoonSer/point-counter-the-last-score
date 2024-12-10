@@ -9,15 +9,19 @@ import Footer from '../components/Footer'
 
 import DevTeam from '../components/DevTeam/DevTeam'
 
+
+import { useParams } from 'react-router-dom';
+
+
 function App() {
 
 
   return (
     <div className='w-screen h-screen'>
       <NavBar />
-      {/* <ScoreBoard /> */}
-      <DevTeam />
-      <Footer />
+      <ScoreBoard />
+      {/* <DevTeam /> */}
+      {/* <Footer /> */}
     </div>
   )
 }

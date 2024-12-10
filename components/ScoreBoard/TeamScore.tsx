@@ -2,14 +2,15 @@ import React from 'react'
 import Button from './Button'
 
 interface TeamScoreProps {
-    teamName: string
+    teamName: string,
+    bgColor?: string
 }
 
-const TeamScore = ({teamName}: TeamScoreProps) => {
+const TeamScore = ({teamName, bgColor = 'red'}: TeamScoreProps) => {
   return (
     <div className='flex flex-col gap-6'>
         <div><h3 className='text-center text-xl font-bold'>{teamName}</h3></div>
-        <div className='p-24 bg-red-300 rounded-2xl border-4 border-blue-950'>
+        <div className={`p-24 bg-${bgColor}-300 rounded-2xl border-4 border-blue-950`}>
             <p className='text-6xl font-bold'>20</p>
         </div>
         <div className='flex flex-row gap-3 w-4/5 mx-auto'>

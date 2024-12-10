@@ -11,9 +11,9 @@ const ScoreBoard = () => {
                     <Timer />
                 </div>
                 <div className='flex flex-row justify-between items-center'>
-                    <TeamScore teamName='ENKKU' />
+                    <TeamScore teamName='ENKKU' bgColor='red' />
                     <SetSection />
-                    <TeamScore teamName='ENKKU' />
+                    <TeamScore teamName='ENKKU' bgColor='yellow' />
                 </div>
             </div>
 

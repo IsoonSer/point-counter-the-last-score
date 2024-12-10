@@ -7,9 +7,9 @@ const NavBar = () => {
                 <div className='text-orange-400 font-bold text-2xl'>Point Counter (The Last Score)</div>
                 <div>
                     <ul className='flex flex-row gap-10 text-white'>
-                        <li><a className='font-medium text-xl' href="">Home</a></li>
-                        <li><a className='font-medium text-xl' href="">About</a></li>
-                        <li><a className='font-medium text-xl' href="">Contact</a></li>
+                        <li className='duration-300 hover:text-orange-400'><a className='font-medium text-xl' href="">Home</a></li>
+                        <li className='duration-300 hover:text-orange-400'><a className='font-medium text-xl' href="">About</a></li>
+                        <li className='duration-300 hover:text-orange-400'><a className='font-medium text-xl' href="">Contact</a></li>
                     </ul>
                 </div>
             </div>
